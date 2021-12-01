@@ -1,0 +1,113 @@
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: "Roboto Mono", monospace;
+  background-color:rgb(248, 248, 248)
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+ 
+}
+.header {
+  background: #1d1e20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;; }
+  .Menu {
+
+      display: flex;
+      
+  }
+  .Menu li a{
+    background: #1d1e20;
+      display: block;
+      padding-left: 10px;
+
+  }
+   h1 {
+       text-align: center;
+       text-transform: uppercase;
+       margin-top: 0 ;
+   }
+   p{
+       text align:justify: 
+       padding-inline: 15px;
+   }
+
+   .row{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+    .card{
+        border-radius: 60px;
+        box-shadow: 7px 7px 12px 0px rgba(50, 50, 50, 0.22);
+        padding: 30px;
+        margin: 20px;
+        width: 400px;
+        transition: all 0.2s ease-out;
+    }
+
+
+    .card:hover{
+        transform: translateY(-10px);
+        cursor: pointer;
+        
+        
+    }
+
+    .card p{
+        color: rgb(0, 0, 0);
+    }
+    .image{
+       
+            background-image:url(imagens/direito-superior.png); 
+            width: 64px;
+            height:64px;
+            float: right;
+            margin-top: -111px;
+            margin-right:-10px;
+            }
+
+    
+
+    .blue{
+        border-left: 4px solid rgb(255, 255, 0)
+    }
+
+    .grenn{
+        border-left: 4px solid rgb(255, 0, 0)
+
+    }
+
+    .red{
+        border-left: 4px solid rgb(255, 68, 0)
+    }
+
+  
+    iframe{
+       
+        margin-top: 40px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }
+    
+.footer{
+
+    background: #1d1e20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;; 
+margin-top: 50px;}
+
+#topo {background-color: rgb(248, 144, 53); padding: 20px; margin-bottom: 20px;}
